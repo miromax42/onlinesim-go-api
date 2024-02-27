@@ -178,7 +178,7 @@ type Service struct {
 	Count   interface{} `json:"count"`
 	Popular bool        `json:"popular"`
 	Code    int         `json:"code"`
-	Price   int         `json:"price"`
+	Price   float64     `json:"price"`
 	ID      int         `json:"id"`
 	Service string      `json:"service"`
 	Slug    interface{} `json:"slug"`
