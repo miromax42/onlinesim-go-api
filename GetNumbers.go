@@ -181,7 +181,7 @@ type Service struct {
 	Price   float64     `json:"price"`
 	ID      int         `json:"id"`
 	Service string      `json:"service"`
-	Slug    interface{} `json:"slug"`
+	Slug    string      `json:"slug"`
 }
 
 func (c *GetNumbers) Tariffs() (error, map[string]TariffsResponse) {
